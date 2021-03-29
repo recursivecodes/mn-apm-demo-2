@@ -7,9 +7,6 @@ tracing:
     sampler:
       probability: 1
     http:
-      url:
-      path:
+      url: https://aaa[redacted]ie.apm-agt.us-phoenix-1.oci.oraclecloud.com
+      path: /20200101/observations/public-span?dataFormat=zipkin&dataFormatVersion=2&dataKey=[public key]
     supportsJoin: false
-jmx:
-  domain: mn-apm-demo1
-  register-endpoints: true
